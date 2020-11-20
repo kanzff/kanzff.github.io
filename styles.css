@@ -3,6 +3,23 @@ body {
 }
 
 
+#start {
+    position: absolute;
+    background-color: rgb(113, 211, 154);
+    color:black;
+    margin-top: 25px;
+    margin-left: 510px;
+    width: 130px;
+    height: 45px;
+    border-radius: 10%;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+
 
 
 .game {
@@ -57,11 +74,16 @@ body {
     height: 100px;
     position: relative;
     top: 200px;
-    left: 1180px;
+    left: 1130px;
 
     background-image:url(img/ricardo.png);
     background-size: 70px 100px;
 
+    /*animation: block 1s infinite linear;
+    z-index: 0;*/
+}
+
+.ricrush {
     animation: block 1s infinite linear;
     z-index: 0;
 }
@@ -90,6 +112,7 @@ body {
     border-radius: 10%;
     font-family: 'Architects Daughter', cursive;
     font-size: 25px;
+    font-weight: bold;
 }
 
 #menu {
@@ -124,4 +147,22 @@ body {
     vertical-align: bottom;
     margin-top: 90px;
     float: right;
+}
+
+
+#ins {
+    position: absolute;
+    background-color: rgb(113, 211, 154);
+    color:black;
+    margin-top: 90px;
+    margin-left: 460px;
+    width: 420px;
+    height: 50px;
+    border-radius: 10%;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
